@@ -12,7 +12,7 @@ export class AppComponent {
     this.serverElements.push({
       type: 'server',
       name : server.serverName,
-      content : server.serverName
+      content : server.serverContent
     })
   }
 
@@ -20,7 +20,7 @@ export class AppComponent {
     this.serverElements.push({
       type: 'blueprint',
       name : blueprint.serverName,
-      content : blueprint.serverName
+      content : blueprint.serverContent
     })  
   
   }

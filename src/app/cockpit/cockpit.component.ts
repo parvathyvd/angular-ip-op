@@ -22,7 +22,7 @@ export class CockpitComponent implements OnInit {
   onAddServer() {
     this.serverCreated.emit({
       serverName: this.newServerName,
-      serverContent: this.newServerName
+      serverContent: this.newServerContent
     })
   }
   
@@ -30,7 +30,7 @@ export class CockpitComponent implements OnInit {
   onAddBlueprint() {
    this.bluePrintCreated.emit({
     serverName: this.newServerName,
-    serverContent: this.newServerName
+    serverContent: this.newServerContent
    })
   }
 
